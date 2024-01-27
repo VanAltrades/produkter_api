@@ -1,10 +1,10 @@
 # THE PRODUKTER API
 
-![Produkter API Logo](docs\imgs\introducing_produkter.png)
+![Produkter API Logo](docs/imgs/introducing_produkter.png)
 
 ## [Try Out Produkter Online Using RapidAPI](https://rapidapi.com/vanaltrades/api/produkter)
 
-![Produkter API Demo using RapidAPI](docs\imgs\rapidapi_demo.png)
+![Produkter API Demo using RapidAPI](docs/imgs/rapidapi_demo.png)
 
 ## What can Produkter accomplish for you?
 
