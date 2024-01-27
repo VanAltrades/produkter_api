@@ -1,0 +1,803 @@
+openapi: 3.0.0
+info:
+  title: Produkter API
+  version: 0.0.3
+paths:
+  /search:
+    get:
+      summary: Get Search Results
+      parameters:
+        - name: q
+          in: query
+          description: Parameter `q` uniquely identifies a product to collect structured data for. e.g. `?q={brand}+{mpn}+{item name}` 
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                slime 30047 inner tube:
+                  description:
+                    - >-
+                      Today Buy Slime Extra Strong Self-Sealing Bicycle Tube
+                      Schrader 24" x 1.75-2.125" Bike Inner Tube - 30047 at
+                      Walmart.com
+                    - "These are no ordinary bicycle tubes! These extra strong inner tubes stop flats for 2 years because there is Slime inside.\_Works in bicycles, wheelbarrows, wheelchairs, jogging strollers, snow blowers and much more.\_\n\nNo more flats for 2 years!\nExtra strong\_with\_Slime sealant inside\nInstantly seals tread area punctures up to 1/8″ (3mm) in size\nSeals multiple punctures repeatedly\n24\" x 1.75-2.125\" Schrader\n\nMore Product Details\n\n\nSchrader valve stem\nPre-filled with puncture stopping Slime tube sealant\nNon-toxic and non-flammable\nCleans up with water\_\nPrevents flats for 2 years!\n\nVideos\n\n\n\n\nHow to Select and Install a Slime Tube:\n\n\n\n\_How Does Slime Work?\n\n\n\n\n\n\_\nHow to\_Find Your\_Tube Size\nBetween the dozens of size options and the various valve stem types (Presta, what is that?), selecting the correct tube for your bike can be challenging. Check out our quick tube guide to help you select the perfect tire tube for your bicycle every time.\n\n\n\n\n\n\n\n\nInstructions &amp; Tech Specs\nExtra Strong\_Self-Sealing"
+                    - >-
+                      These are no ordinary bicycle tubes. These extra strong
+                      inner tubes stop flats for 2 years because there is Slime
+                      inside. Extra strong because there's Slime inside.
+                      Instantly seals tread area punctures up to 1/8” (3 mm) in
+                      size Seals multiple punctures repeatedly Non-toxic and
+                      non-flammable Cleans up with water…
+                    - >-
+                      Amazon.com : Slime Inner Tube 24 In. Pre-Filled With Tire
+                      Sealant : Sports & Outdoors
+                    - >-
+                      These are no ordinary bicycle tubes! These extra strong
+                      inner tubes stop flats for 2 years because there is Slime
+                      inside.
+
+                      - No more flats for 2 years!
+
+                      - Extra strong with Slime sealant inside...
+                    - >-
+                      These are no ordinary bicycle tubes! These extra strong
+                      inner tubes stop flats for 2 years because there is Slime
+                      inside.
+                    - >-
+                      Your little ones have a youthful, intrepid spirit that
+                      sees them riding wherever the wind takes them. Most of the
+                      time, however, it takes them straight... 031-1349
+                  image2:
+                    - >-
+                      https://i5.walmartimages.com/seo/Slime-Extra-Strong-Self-Sealing-Bicycle-Tube-Schrader-24-x-1-75-2-125-Bike-Inner-Tube-30047_079bafc4-2011-480b-ae08-8b097db1a69e_3.fa4c5fd073e74a51322b26e1e471143a.jpeg
+                    - >-
+                      http://slime.com/cdn/shop/products/30047_front_grande.jpg?v=1602626904
+                    - 'https://www.hardwareworld.com/files/pi/lR/I/PFKJ.jpg'
+                    - >-
+                      https://res.cloudinary.com/droneup-llc/image/fetch/f_auto/https://i5.walmartimages.com/asr/079bafc4-2011-480b-ae08-8b097db1a69e_3.fa4c5fd073e74a51322b26e1e471143a.jpeg
+                    - >-
+                      https://m.media-amazon.com/images/I/61dNJCntRhL._AC_UF1000,1000_QL80_.jpg
+                    - >-
+                      https://www.sefiles.net/images/library/large/slime-extra-strong-self-sealing-bicycle-tubes-355347-1.jpg
+                    - >-
+                      https://m.media-amazon.com/images/I/71xeF-k4lML._AC_SL1000_.jpg
+                    - >-
+                      https://m.media-amazon.com/images/I/81zHE31s0+S._AC_UF1000,1000_QL80_.jpg
+                    - >-
+                      https://images.performancebike.com/images/large/bikes/specialized/031-1349.jpg
+                  link:
+                    - >-
+                      https://www.walmart.com/ip/Slime-Extra-Strong-Self-Sealing-Bicycle-Tube-Schrader-24-x-1-75-2-125-Bike-Inner-Tube-30047/17209340
+                    - >-
+                      https://slime.com/products/extra-strong-self-sealing-bicycle-tubes-24-x-1-75-2-125-schrader
+                    - >-
+                      https://www.hardwareworld.com/ppfkjri/24-Slime-Bicycle-Tube
+                    - >-
+                      https://droneupdelivery.com/product/slime-extra-strong-self-sealing-bicycle-tube-schrader-24-x-1-75-2-125-30047/
+                    - >-
+                      https://www.amazon.com/Slime-Inner-Tube-Pre-Filled-Sealant/dp/B074BBMMN6
+                    - >-
+                      https://www.thespokeeasyclt.com/product/slime-extra-strong-self-sealing-schrader-valve-tube-355347-1.htm
+                    - >-
+                      https://aeropost.com/BHS_en/c/sports-amp-outdoors/node/9004/?brands=Slime
+                    - >-
+                      https://www.amazon.com/Slime-Puncture-Sealant-Schrader-1-75-2-125/dp/B0CHJ99MQ9
+                    - >-
+                      https://www.performancebike.com/specialized-standard-24-youth-inner-tube-schrader-1.25-1.5-32mm-031-1349/p1306393?v=559033
+                  pagetype:
+                    - product.item
+                    - product
+                    - product
+                    - 'og:product'
+                    - product
+                    - website
+                  site:
+                    - www.walmart.com
+                    - slime.com
+                    - www.hardwareworld.com
+                    - droneupdelivery.com
+                    - www.amazon.com
+                    - www.thespokeeasyclt.com
+                    - aeropost.com
+                    - www.amazon.com
+                    - www.performancebike.com
+                  site2:
+                    - Walmart.com
+                    - Slime Products
+                    - Hardware World
+                    - DroneUp Delivery
+                  snippet:
+                    - >-
+                      Today Buy Slime Extra Strong Self-Sealing Bicycle Tube
+                      Schrader 24" x 1.75-2.125" Bike Inner Tube - 30047 at
+                      Walmart.com.
+                    - >-
+                      Part #30047. Extra Strong Self-Sealing Bicycle Tubes 24" x
+                      1.75-2.125 ... These extra strong inner tubes stop flats
+                      for 2 years because there is Slime inside.
+                    - "SLIME BICYCLE TIRE TUBE. High quality inner bike tire inner tube w/ -; Slime Tube Sealant inside; Protects from punctures for 2 years; Schrader valve\_..."
+                    - "Slime Self-Sealing Smart Replacement Bike and Bicycle Inner Tube, Schrader 24 In. x 1.75-2.125 – 30047: 24” x 1.75 – 2.125” Schrader valve stem Pre-filled\_..."
+                    - "‎Slime. Material, ‎Rubber. Part Number, ‎30047. Additional Information. ASIN: B074BBMMN6; Customer Reviews: 4.5 out of 5 stars 583Reviews. Best Sellers Rank\_..."
+                    - "These extra strong inner tubes stop flats for 2 years because there is Slime inside. ... 30047. 26 x 1.75 – 2.125, 716281006210, 30045. 29 x 1.85 – 2.20\_..."
+                    - "19 results ... Slime 30074 Bike Inner Tubes Puncture Sealant, Extra Strong, Self Sealing, Prevent and · Slime Self-Healing 26/1.75-2.125 Bicycle Tube with PRESTA\_..."
+                    - "These extra strong inner tubes stop flats for 2 years because there is Slime inside. Slime Tube Sealant seeks out and instantly seals punctures in your tubes up\_..."
+                    - >-
+                      Nov 23, 2021 ... The CST 24" Bike Inner Tube are designed
+                      ... for ... Slime Self-Sealing Inner Tubes provide an
+                      extra level of protection against punctures.
+                  title:
+                    - >-
+                      Slime Extra Strong Self-Sealing Bicycle Tube Schrader 24"
+                      x 1.75 ...
+                    - >-
+                      Extra Strong Self-Sealing Bike Tubes 24 x 1.75-2.125"
+                      Schrader ...
+                    - Buy the Slime 30047 24 Slime Bicycle Tube | Hardware World
+                    - >-
+                      Slime Extra Strong Self-Sealing Bicycle Tube Schrader 24"
+                      x 1.75 ...
+                    - >-
+                      Slime Inner Tube 24 In. Pre-Filled With Tire Sealant ... -
+                      Amazon.com
+                    - >-
+                      Slime Extra Strong Self-Sealing Schrader Valve Tube - The
+                      Spoke ...
+                    - >-
+                      Aeropost.com Bahamas - The best way to buy from your
+                      favorite ...
+                    - >-
+                      Slime Bike Inner Tube with Slime Bicycle Puncture ... -
+                      Amazon.com
+                    - >-
+                      Specialized Standard 24" Youth Inner Tube (Schrader) (1.25
+                      - 1.5 ...
+                  title2:
+                    - >-
+                      Amazon.com : Slime Inner Tube 24 In. Pre-Filled With Tire
+                      Sealant : Sports & Outdoors
+                    - >-
+                      Amazon.com : Slime Bike Inner Tube with Slime Bicycle
+                      Puncture Sealant, Extra Strong, Self Sealing, Prevent and
+                      Repair : Sports & Outdoors
+                  title3:
+                    - >-
+                      Slime Extra Strong Self-Sealing Bicycle Tube Schrader 24"
+                      x 1.75-2.125" Bike Inner Tube - 30047 - Walmart.com
+                    - >-
+                      Extra Strong Self-Sealing Bicycle Tubes 24" x 1.75-2.125"
+                      Schrader
+                    - Slime 30047 24 Slime Bicycle Tube
+                    - >-
+                      Slime Extra Strong Self-Sealing Bicycle Tube Schrader 24"
+                      x 1.75-2.125" - 30047 - DroneUp Delivery
+                    - Slime Inner Tube 24 In. Pre-Filled With Tire Sealant
+                    - Slime Extra Strong Self-Sealing Schrader Valve Tube
+                    - >-
+                      Aeropost.com Bahamas - The best way to buy from your
+                      favorite stores in the U.S.
+                    - >-
+                      Slime 30045 Bike Inner Tube with Slime Puncture Sealant,
+                      Extra Strong, Self Sealing, Prevent and Repair, Schrader
+                      Valve, 26" x 1.75-2.125"
+                    - >-
+                      Specialized Standard 24" Youth Inner Tube (Schrader) (1.25
+                      - 1.5") (32mm)
+        '400':
+          description: No Results
+          content:
+            application/json:
+              example:
+                error: no results for ?q={q}
+  /resources:
+    get:
+      summary: Get Resources Results
+      parameters:
+        - name: q
+          in: query
+          description: Parameter `q` uniquely identifies a product to collect structured data for. e.g. `?q={brand}+{mpn}+{item name}` 
+          required: true
+          schema:
+            type: string      
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                slime 30047 inner tube:
+                  - >-
+                    https://docap.com/wp-content/uploads/2018/03/SlimeCatalog_English1.pdf
+                  - >-
+                    https://assets.unilogcorp.com/187/ITEM/DOC/Slime_102720638_SDS.pdf
+                  - 'https://apps.dtic.mil/sti/tr/pdf/ADA995163.pdf'
+                  - >-
+                    https://www.epa.gov/sites/default/files/2015-05/documents/srd_apdx.pdf
+                  - >-
+                    https://www.leegov.com/procurement/Project%20Documents/B180363JJB,%20Annual%20-%20Paint%20and%20Paint%20Related%20Products/Retail%20Sundry%20Active%209-7-21.PPG.pdf
+                  - 'https://wwwnc.cdc.gov/eid/content/18/5/pdfs/v18-n5.pdf'
+                  - 'https://p2infohouse.org/ref/31/30047.pdf'
+                  - >-
+                    http://ndl.ethernet.edu.et/bitstream/123456789/17412/2/93.pdf.pdf
+                  - >-
+                    https://dor.georgia.gov/sites/dor.georgia.gov/files/related_files/document/ADM/Report/Tobacco%20accounts%20Active%206-30-2019.pdf
+                  - >-
+                    https://www.wipo.int/classifications/nice/en/pdf/NCL_3_-_I-1981_ENG_Alphab._List.pdf
+        '400':
+          description: No Results
+          content:
+            application/json:
+              example:
+                error: no results for ?q={q}
+  /questions:
+    get:
+      summary: Get Questions
+      parameters:
+        - name: q
+          in: query
+          description: Parameter `q` uniquely identifies a product to collect structured data for. e.g. `?q={brand}+{mpn}+{item name}` 
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                Anker Q20:
+                  - anker q20 review
+                  - how to charge anker q20
+                  - anker q20 specs
+        '400':
+          description: Invalid response from /questions
+          content:
+            application/json:
+              example:
+                error: Invalid response from /questions
+  /comparisons:
+    get:
+      summary: Get Comparisons
+      parameters:
+        - name: q
+          in: query
+          description: Parameter `q` uniquely identifies a product to collect structured data for. e.g. `?q={brand}+{mpn}+{item name}` 
+          required: true
+          schema:
+            type: string      
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                Anker Q20:
+                  - anker q20 vs q30 reddit
+                  - cowin e7 vs anker q20
+                  - sony ch520 vs anker q20
+                  - jbl 510bt vs anker q20
+                  - anker q20 vs anker q20i
+                  - anker q20 vs q45
+                  - anker q30 vs anker q20
+                  - edifier w820nb vs anker q20
+                  - infurture h1 vs anker q20
+                  - anker q20 vs q35
+        '400':
+          description: Invalid response from /comparisons
+          content:
+            application/json:
+              example:
+                error: Invalid response from /comparisons
+  /suggestions:
+    get:
+      summary: Get Suggestions
+      parameters:
+        - name: q
+          in: query
+          description: Parameter `q` uniquely identifies a product to collect structured data for. e.g. `?q={brand}+{mpn}+{item name}` 
+          required: true
+          schema:
+            type: string      
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                Anker Q20:
+                  - anker headphones q20 vs q30
+                  - anker life q20 app
+                  - anker life q20 headphones
+                  - anker life q20 hybrid
+                  - anker life q20 manual
+                  - anker life q20 plus
+                  - anker life q20 reddit
+                  - anker life q20 review
+                  - anker life q20 vs q30
+                  - anker life q20 vs q35
+                  - anker life q30 vs q20
+                  - anker q20 amazon
+                  - anker q20 anc
+                  - anker q20 app
+                  - anker q20 bass boost
+                  - anker q20 case
+                  - anker q20 charging time
+                  - anker q20 cijena
+                  - anker q20 comfort
+                  - anker q20 controls
+                  - anker q20 ear pads
+                  - anker q20 epey
+                  - anker q20 firmware
+                  - anker q20 fiyat
+                  - anker q20 headphones
+                  - anker q20 headphones manual
+                  - anker q20 headphones review
+                  - anker q20 hybrid active
+                  - anker q20 hybrid active noise cancelling
+                  - anker q20 instructions
+                  - anker q20 kulaklık
+                  - anker q20 kulaklık pedi
+                  - anker q20 life
+                  - anker q20 lite headphones
+                  - anker q20 manual
+                  - anker q20 microphone
+                  - anker q20 noise cancelling
+                  - anker q20 noise cancelling headphones
+                  - anker q20 not charging
+                  - anker q20 or q30
+                  - anker q20 pairing
+                  - anker q20 pairing mode
+                  - anker q20 plus
+                  - anker q20 plus review
+                  - anker q20 plus vs q30
+                  - anker q20 price
+                  - anker q20 price in pakistan
+                  - anker q20 qatar
+                  - anker q20 reddit
+                  - anker q20 release date
+                  - anker q20 replacement ear pads
+                  - anker q20 reset
+                  - anker q20 review
+                  - anker q20 review reddit
+                  - anker q20 rtings
+                  - anker q20 soundcore
+                  - anker q20 specs
+                  - anker q20 tunisie
+                  - anker q20 v q30
+                  - anker q20 vs bose qc35
+                  - anker q20 vs edifier w820nb
+                  - anker q20 vs q10
+                  - anker q20 vs q20 plus
+                  - anker q20 vs q20+
+                  - anker q20 vs q20+ reddit
+                  - anker q20 vs q20i
+                  - anker q20 vs q20i specs
+                  - anker q20 vs q30
+                  - anker q20 vs q30 reddit
+                  - anker q20 vs q30 vs q35
+                  - anker q20 vs q35
+                  - anker q20 vs q45
+                  - anker q20 vs space one
+                  - anker q20 x q30
+                  - anker q20+ over ear bt-kopfhörer
+                  - anker q20+ q30
+                  - anker q20+ test
+                  - anker q20i
+                  - anker q20i case
+                  - anker q20i headphones
+                  - anker q20i hybrid review
+                  - anker q20i release date
+                  - anker q20i review
+                  - anker q20i vs q20
+                  - anker q20i vs q30
+                  - anker q20i vs q45
+                  - anker soundcore life q20 alternative
+                  - anker soundcore life q20 argos
+                  - anker soundcore life q20 australia
+                  - anker soundcore life q20 battery replacement
+                  - anker soundcore life q20 best buy
+                  - anker soundcore life q20 bluetooth
+                  - anker soundcore life q20 bluetooth headphones pairing
+                  - anker soundcore life q20 bluetooth pairing
+                  - anker soundcore life q20 boom headset
+                  - anker soundcore life q20 cena
+                  - anker soundcore life q20 charging time
+                  - anker soundcore life q20 connect to pc
+                  - anker soundcore life q20 drivers
+                  - anker soundcore life q20 ear pads
+                  - anker soundcore life q20 ebay
+                  - anker soundcore life q20 ekşi
+                  - anker soundcore life q20 factory reset
+                  - anker soundcore life q20 fiyat
+                  - anker soundcore life q20 for gym
+                  - anker soundcore life q20 france
+                  - anker soundcore life q20 frequency response
+                  - anker soundcore life q20 kaina
+                  - anker soundcore life q20 keeps disconnecting
+                  - anker soundcore life q20 kulaklık pedi
+                  - anker soundcore life q20 malaysia
+                  - anker soundcore life q20 mic test
+                  - anker soundcore life q20 microphone
+                  - anker soundcore life q20 microphone not working
+                  - anker soundcore life q20 multiple devices
+                  - anker soundcore life q20 multipoint
+                  - anker soundcore life q20 mute button
+                  - anker soundcore life q20 near me
+                  - anker soundcore life q20 noise-cancelling headphones
+                  - anker soundcore life q20 not turning on
+                  - anker soundcore life q20 nz
+                  - anker soundcore life q20 opinie
+                  - anker soundcore life q20 opiniones
+                  - anker soundcore life q20 or q30
+                  - anker soundcore life q20 ou q30
+                  - anker soundcore life q20 price in bangladesh
+                  - anker soundcore life q20 test
+                  - anker soundcore life q20 troubleshooting
+                  - anker soundcore life q20 tunisie
+                  - anker soundcore life q20 uk
+                  - anker soundcore life q20 unboxing
+                  - anker soundcore life q20 update
+                  - anker soundcore life q20 user manual
+                  - anker soundcore life q20+ black
+                  - anker soundcore q20
+                  - anker soundcore q20 bluetooth pairing
+                  - anker soundcore q20 case
+                  - anker soundcore q20 driver
+                  - anker soundcore q20 firmware update
+                  - anker soundcore q20 headphones review
+                  - anker soundcore q20 life
+                  - anker soundcore q20 manual
+                  - anker soundcore q20 not charging
+                  - anker soundcore q20 pairing
+                  - anker soundcore q20 plus review
+                  - anker soundcore q20 reddit
+                  - anker soundcore q20 test
+                  - anker soundcore q20 vs q20i
+                  - anker soundcore q20 vs q30
+                  - anker soundcore q20 vs q45
+                  - anker soundcore q20+ on ear bluetooth kopfhörer
+                  - difference between anker q20 and q20i
+                  - difference between anker q20 and q30
+                  - soundcore anker life q20 transparency mode
+        '400':
+          description: Invalid response from /suggestions
+          content:
+            application/json:
+              example:
+                error: Invalid response from /suggestions
+  /schemas:
+    get:
+      summary: Get Schema Results
+      parameters:
+        - name: q
+          in: query
+          description: Parameter `q` uniquely identifies a product to collect structured data for. e.g. `?q={brand}+{mpn}+{item name}` 
+          required: true
+          schema:
+            type: string      
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                slime 30047 inner tube:
+                  brand_name:
+                    - Slime
+                    - Slime
+                  description:
+                    - "These are no ordinary bicycle tubes! These extra strong inner tubes stop flats for 2 years because there is Slime inside.\r\n\r\n- No more flats for 2 years!\r\n- Extra strong with Slime sealant inside\r..."
+                    - >-
+                      These are no ordinary bicycle tubes. These extra strong
+                      inner tubes stop flats for 2 years because there is Slime
+                      inside. Extra strong because there's Slime inside.
+                      Instantly seals tread area punctures up to 1/8 (3 mm) in
+                      size Seals multiple punctures repeatedly Non-toxic and
+                      non-flammable Cleans up with water Tube sizes and valve
+                      types available for nearly every type of bike. Works in
+                      bicycles, wheelbarrows, wheelchairs, jogging strollers,
+                      snow blowers and much more.
+                    - >-
+                      These are no ordinary bicycle tubes. These extra strong
+                      inner tubes stop flats for 2 years because there is Slime
+                      inside. Extra strong because there's Slime inside.
+                      Instantly seals tread area punctures up to 1/8” (3 mm) in
+                      size Seals multiple punctures repeatedly Non-toxic and
+                      non-flammable Cleans up with water Tube sizes and valve
+                      types available for nearly every type of bike. Works in
+                      bicycles, wheelbarrows, wheelchairs, jogging strollers,
+                      snow blowers and much more.
+                  gtin13:
+                    - '716281006234'
+                  image:
+                    - /files/pi/lR/I/PFKJ.jpg
+                    - >-
+                      https://www.sefiles.net/images/library/large/slime-extra-strong-self-sealing-bicycle-tubes-355347-1.jpg
+                    - >-
+                      https://i5.walmartimages.com/seo/Slime-Extra-Strong-Self-Sealing-Bicycle-Tube-Schrader-24-x-1-75-2-125-Bike-Inner-Tube-30047_079bafc4-2011-480b-ae08-8b097db1a69e_3.fa4c5fd073e74a51322b26e1e471143a.jpeg
+                    - >-
+                      https://res.cloudinary.com/droneup-llc/image/fetch/f_auto/https://i5.walmartimages.com/asr/079bafc4-2011-480b-ae08-8b097db1a69e_3.fa4c5fd073e74a51322b26e1e471143a.jpeg
+                  model:
+                    - '30047'
+                  mpn:
+                    - '30047'
+                  name:
+                    - 24 Slime Bicycle Tube
+                    - Extra Strong Self-Sealing Schrader Valve Tube
+                    - >-
+                      Slime Extra Strong Self-Sealing Bicycle Tube Schrader 24"
+                      x 1.75-2.125" Bike Inner Tube - 30047
+                    - >-
+                      Slime Extra Strong Self-Sealing Bicycle Tube Schrader 24"
+                      x 1.75-2.125" - 30047
+                  offers_availability:
+                    - InStock
+                    - 'https://schema.org/InStock'
+                  offers_price:
+                    - '7.38'
+                    - 6.96
+                  review:
+                    - - '@type': Review
+                        author:
+                          '@type': Person
+                          name: Hippielovebug
+                        datePublished: 'March 29, 2020'
+                        name: No air pump needed
+                        reviewBody: >-
+                          My tire had a slow leak. I had to pump it up every
+                          week. I replaced the tube and haven't had to pump it
+                          up in a month. Just jump on and go! I should have
+                          gotten two.
+                        reviewRating:
+                          '@type': Rating
+                          bestRating: 5
+                          ratingValue: 5
+                          worstRating: 1
+                      - '@type': Review
+                        author:
+                          '@type': Person
+                          name: misscakes
+                        datePublished: 'June 3, 2020'
+                        name: A must for your bike
+                        reviewBody: >-
+                          In this day and age when everyone everyone is trying
+                          to get healthy and riding a bicycle is a an excellent
+                          way to get fit. Being safe on uoyr bike is very
+                          important a nd a sudden flat tire can cause many
+                          problems. This self sealing iner tuble for your bike
+                          tire will jeep you safer in the event of a blowout. I
+                          would suggest uou buy 2 so you have an extra on hand
+                          just in case. Be safe out there and obey the rules of
+                          the road.
+                        reviewRating:
+                          '@type': Rating
+                          bestRating: 5
+                          ratingValue: 5
+                          worstRating: 1
+                      - '@type': Review
+                        author:
+                          '@type': Person
+                          name: Sandyc
+                        datePublished: 'August 28, 2020'
+                        name: Extra Strong Self Sealing Tube
+                        reviewBody: "The Slime Extra Strong self sealing tube is amazing!\r\nExcellent quality. I used it for my cousins bicycle.\r\nYou determine the size tube that you need by checking \r\nthe bicycle tire on the bike. You will find the width \r\nand diameter that is marked.\r\nWhat this product does is when the bicycle tire is punctured \r\nthe air escapes in the tire, then pressure forces Slimes \r\n FibroSeal small particles in the hole. This repairs the tire \r\npuncture. Also works for two years and is non toxic and\r\nnon flammable. Follow directions to install that are on the\r\nbox. It is fantastic! 5 stars!"
+                        reviewRating:
+                          '@type': Rating
+                          bestRating: 5
+                          ratingValue: 5
+                          worstRating: 1
+                      - '@type': Review
+                        author:
+                          '@type': Person
+                          name: SloGlo
+                        datePublished: 'August 26, 2023'
+                        name: Want security with ride? Slime for life
+                        reviewBody: >-
+                          I absolutely love these tubes for my bike for the
+                          slime inside keeps my bike from having flats.  I feel
+                          safe having extra one of these on my rides just in
+                          case but hardly ever have to worry about flats though
+                          accidents can happen.
+
+                          I been using these for almost 10 years and have had
+                          only 3 flats and only because of accidentally riding
+                          over broken glass.  Best tubes EVER
+                        reviewRating:
+                          '@type': Rating
+                          bestRating: 5
+                          ratingValue: 5
+                          worstRating: 1
+                      - '@type': Review
+                        author:
+                          '@type': Person
+                          name: Nik
+                        datePublished: 'August 19, 2020'
+                        name: It's a must if you own a bike
+                        reviewBody: >-
+                          I was absolutely impressed. I had my doubts but it
+                          worked like magic. If you own a bike, it's a must to
+                          have on hand. I do a lot of off reading on my bike
+                          with my son. I have had multiple incidents where these
+                          inner tubes would have come in handy. LIKE TODAY but I
+                          had it on my bike this time. I pulled the nail out and
+                          I didn't hear a hiss.. the tire remained inflated.
+                        reviewRating:
+                          '@type': Rating
+                          bestRating: 5
+                          ratingValue: 5
+                          worstRating: 1
+                      - '@type': Review
+                        author:
+                          '@type': Person
+                          name: Ctrudell
+                        datePublished: 'August 21, 2020'
+                        name: Such a great tire tube!
+                        reviewBody: >-
+                          This is one of my new favorite tire tubes to have
+                          around the garage. I've worked with local bike repair
+                          non-profits, and we've gone through a lot of tubes as
+                          we've worked on bike tires, and this is nicer and more
+                          sturdy than the ones I remember using. I think the
+                          valve is more appropriate for the newer bikes, and I'm
+                          glad that it will self-seal if we ever run over
+                          something that punctures the tire. Who knew that I
+                          would be excited to run over a nail and watch a tube
+                          do its work?!
+                        reviewRating:
+                          '@type': Rating
+                          bestRating: 5
+                          ratingValue: 5
+                          worstRating: 1
+                      - '@type': Review
+                        author:
+                          '@type': Person
+                          name: spendtoomuchmomma
+                        datePublished: 'August 26, 2020'
+                        name: Told everyone
+                        reviewBody: "I received this slime self healing bike tire to test at no charge for my honest opinion. This is good it is awesome I thought maybe it would feel bumpy or something hard in the tire but it doesn't, the slime doesn't seem to pool at the bottom it really is a very smooth ride I got so excited I told everybody about this it is amazing and very useful I wonder can we do this on car tires because that's awesome that would really be amazing. It is easy to put on a bicycle just like the rest of the tires fill it with air just like the rest of the tires and it works it works beautifully. \r\nSmooth ride."
+                        reviewRating:
+                          '@type': Rating
+                          bestRating: 5
+                          ratingValue: 5
+                          worstRating: 1
+                      - '@type': Review
+                        author:
+                          '@type': Person
+                          name: Kjeeper
+                        datePublished: 'August 17, 2020'
+                        name: Simple!
+                        reviewBody: "Our slime extra strong self-sealing tube came at the perfect time! My daughter and I just purchased bikes and the one she got had a completely flat tire! We tried blowing it up multiple times, but it just kept going flat! \r\n Installing the tube is pretty easy! You make sure the tire is deflated the whole way and then get the tire of the rim. Add a little bit of air to the new tube before inserting the valve and inserting the tube into the tire. Make the the tire goes onto the rim correctly and gently enough not to pinch the tube. Then inflate to the correct psi! Simple simple! Finally we were able to try out the new bikes- and had a blast!"
+                        reviewRating:
+                          '@type': Rating
+                          bestRating: 5
+                          ratingValue: 4
+                          worstRating: 1
+                      - '@type': Review
+                        author:
+                          '@type': Person
+                          name: itsmeMrsz
+                        datePublished: 'August 21, 2020'
+                        name: Inner tube
+                        reviewBody: >-
+                          This inner tube seems well made. My husband says it's
+                          a good one. Very thick and not easy to tear; rubber
+                          seems thicker than most. When we need to replace one,
+                          this may last longer than the current one.
+                        reviewRating:
+                          '@type': Rating
+                          bestRating: 5
+                          ratingValue: 4
+                          worstRating: 1
+                      - '@type': Review
+                        author:
+                          '@type': Person
+                          name: Trish
+                        datePublished: 'August 27, 2020'
+                        name: Slime tire tube
+                        reviewBody: >-
+                          When I first received the product I noticed that the
+                          package (box) does not hold the weight of the product.
+                          Slips right out of the bottom of box. After reading
+                          the product label I was concerned about the large
+                          warning label disclosing health and safety hazards.
+                          This product was for my teenage grandson so I am sure
+                          you can understand my concerns. The product has a very
+                          limited warranty, only covering a specific puncture.
+                          The installation directions are easy to follow. Using
+                          gloves and eye protection my grandson was able to
+                          follow the directions without any problem. He is back
+                          to riding his bike. With teenage boys this product has
+                          a "cool slime" component.
+                        reviewRating:
+                          '@type': Rating
+                          bestRating: 5
+                          ratingValue: 2
+                          worstRating: 1
+                  review_value:
+                    - 4.3
+                  sku:
+                    - '17209340'
+                    - '716281006234'
+        '400':
+          description: Invalid response from /schemas
+          content:
+            application/json:
+              example:
+                error: Invalid response from /schemas
+  /texts:
+    get:
+      summary: Get Text Results
+      parameters:
+        - name: q
+          in: query
+          description: Parameter `q` uniquely identifies a product to collect structured data for. e.g. `?q={brand}+{mpn}+{item name}` 
+          required: true
+          schema:
+            type: string      
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                slime 30047 inner tube:
+                  '0': >-
+                    Slime Extra Strong Self-Sealing Bicycle Tube Schrader 24" x
+                    1.75-2.125" Bike Inner Tube - 30047 - Walmart.comSkip to
+                    Main ContentDepartmentsServicesCancelReorderMy
+                    ItemsReorderListsRegistriesSign InAccountSign InCreate an
+                    accountPurchase HistoryWalmart+$0.00How do you want your
+                    items?Sports & Outdoors/Bikes/Bike Parts/Bike Tire Tubes    
+                    Best sellerPopular pickfor "bike inner tube 24" Slime Slime
+                    Extra Strong Self-Sealing Bicycle Tube Schrader 24" x
+                    1.75-2.125" Bike Inner Tube - 30047 (4.3)4.3 stars out of
+                    236 reviews236 reviews USD$6.96You save $0.00     Price when
+                    purchased online   Slime Extra Strong Self-Sealing Bicycle
+                    Tube Schrader 24" x 1.75-2.125" Bike Inner Tube - 30047Slime
+                    Extra Strong Self Sealing Bicycle Tube Schrader 24 x 1 75 2
+                    125 Bike Inner Tube 30047Slime Extra Strong Self Sealing
+                    Bicycle Tube Schrader 24 x 1 75 2 125 Bike Inner Tube 30047
+                    4 packSlime Extra Strong Self Sealing Bicycle Tube Schrader
+                    24 x 1 75 2 125 Bike Inner Tube 30047 2 packPack
+                    Size:Singleselected, Single, $6.96Single$6.962 Pack, $13.922
+                    Pack$13.92$6.96/ea4 Pack, $27.844 Pack$27.84         How do
+                    you want your item?ShippingArrives Jan
+                    20PickupTomorrowDeliveryTomorrowPickup fromSalt Lake City
+                    Supercenter|Delivery toSalt Lake City, 84101 Sold and
+                    shipped by Walmart.com Free 90-day returnsDetails This item
+                    is gift eligibleLearn more    Add to listAdd to registry   
+                    Join Walmart+ for a year & get $50 Walmart Cash!Limited
+                    time. Terms apply. Claim offerClaim offer - 2 Pack - 26 Inch
+                    Bike Tube - Bicycle Inner Tube 26 175-225
+                    SchraderSponsored$20.99current price $20.99- 2 Pack - 26
+                    Inch Bike Tube - Bicycle Inner Tube 26 175-225 Schrader104.3
+                    out of 5 Stars. 10 reviewsAvailable for 2-day shipping2-day
+                    shippingAdd    At a glanceWeight0.62 lbBicycle tire size24
+                    InchesColor typeBlackPiece
+                    count1                                            We’d love
+                    to hear what you think!Give feedbackAll DepartmentsStore
+                    DirectoryCareersOur CompanySell on Walmart.comHelpCOVID-19
+                    Vaccine SchedulerProduct RecallsAccessibilityTax Exempt
+                    ProgramGet the Walmart AppSign-up for EmailSafety Data
+                    SheetTerms of UsePrivacy & SecurityCalifornia Supply Chain
+                    ActYour Privacy ChoicesNotice at CollectionRequest My
+                    Personal InformationBrand Shop Directory#IYWYKWalmart
+                    Business© 2024 Walmart. All Rights Reserved. 
+                  '1': "                     Extra Strong Self-Sealing Bike Tubes 24 x 1.75-2.125\" Schrader | Slime – Slime Products                                                                                   \"Close Cart\"   Shopping Cart Quick view Login Search for products on our site           Search         See more                          Search       By Product    See more    \"Close Cart\"       Sealants    See more    \"Close Cart\"      Emergency Auto Sealant   2-in-1 Tire & Tube Sealant   Sealant for Tubes   Sealant for Tubeless Tires      Tubes    See more    \"Close Cart\"      Bicycles   Lawn & Garden      Emergency Roadside    See more    \"Close Cart\"      Emergency Roadside Kits   Flat Tire Repair Kits   Refills      Tire Inflators    See more    \"Close Cart\"      Every Day    Pro Power   Direct Connect   120V Home/Garage   Multi-Purpose      Tire Accessories    See more    \"Close Cart\"      Pro-Series   Tire Gauges   Patches & Plugs   Tire Valves & Caps   All Other Accessories        By Adventure    See more    \"Close Cart\"      Road Trip   Bicycling   Lawn & Garden   Off-Road     Learn   Calculator    Help & FAQs    See more    \"Close Cart\"      Contact Us   FAQs     Account   Log in   Create account                                          By Product                      Sealants   Emergency Auto Sealant   2-in-1 Tire & Tube Sealant   Sealant for Tubes   Sealant for Tubeless Tires       Tubes   Bicycles   Lawn & Garden       Emergency Roadside   Emergency Roadside Kits   Flat Tire Repair Kits   Refills       Tire Inflators   Every Day    Pro Power   Direct Connect   120V Home/Garage   Multi-Purpose       Tire Accessories   Pro-Series   Tire Gauges   Patches & Plugs   Tire Valves & Caps   All Other Accessories                         By Adventure                   Road Trip   Bicycling   Lawn & Garden   Off-Road     Learn   Calculator                  Help & FAQs                   Contact Us   FAQs                              Menu                       0 Cart             Home › Extra Strong Self-Sealing Bicycle Tubes 24\" x 1.75-2.125\" Schrader                                                  View in your space                                                     View in your space                                                     View in your space                                                     View in your space                                                     View in your space                                                     View in your space                                                                 View in your space                                      On Sale               Part #30047   Extra Strong Self-Sealing Bicycle Tubes 24\" x 1.75-2.125\" Schrader         Title  Default Title     Default Title - $13.69 USD                              -$-13.69   Regular price  $13.69       (  / )        These are no ordinary bicycle tubes! These extra strong inner tubes stop flats for 2 years because there is Slime inside.\_Works in bicycles, wheelbarrows, wheelchairs, jogging strollers, snow blowers and much more.\_  No more flats for 2 years! Extra strong\_with\_Slime sealant inside Instantly seals tread area punctures up to 1/8″ (3mm) in size Seals multiple punctures repeatedly 24\" x 1.75-2.125\" Schrader       More Product Details    Videos   How to\_Find Your\_Tube Size   Instructions & Tech Specs      More Product Details      Schrader valve stem Pre-filled with puncture stopping Slime tube sealant Non-toxic and non-flammable Cleans up with water\_ Prevents flats for 2 years!      Videos        How to Select and Install a Slime Tube:     \_How Does Slime Work?       \_     How to\_Find Your\_Tube Size    Between the dozens of size options and the various valve stem types (Presta, what is that?), selecting the correct tube for your bike can be challenging. Check out our quick tube guide to help you select the perfect tire tube for your bicycle every time.             Instructions & Tech Specs    Extra Strong\_Self-Sealing Tubes Instruction Manual Slime Tube Sealant Safety Data Sheet                             Product reviews     Customer Reviews No reviews yet Write a review                                More Slime   About Us   Slime's Green Promise   Careers                    Select your language:  English USA English UK German French Spanish Italian       Slime in Stores   Find a Retailer   In-Store Promotions        Policies   Warranty   Privacy Policy   Terms and Conditions        Newsletter Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.                                            I confirm that I have read and agree to the Terms and Conditions and Privacy Policy           © Slime 2024 ∙ Accessibility Statement ∙ Do Not Sell My Personal Information                         Liquid error (layout/theme line 272): Could not find asset snippets/spurit_uev-theme-snippet.liquid                  "
+                  '2': "   Buy the Slime 30047 24 Slime Bicycle Tube | Hardware World         My AccountYOUR CART:0 itemsMenuSearchBrandsDepartmentsMy AccountAboutContact USDEPARTMENTSBRANDSINDEXAutomotiveTire & Valve Repair Kits24 Slime Bicycle Tube     View larger imageBY Slime24 Slime Bicycle TubeUNIT: 1 EachMODEL #: 30047SIZE: 24\"x 1.75-2.125\"MSRP: $\_10.99STOCK STATUS: In StockSTOCK ON HAND: 30$\_7.38QUANTITY:Expected to ship Thursday if order placed in the 12 hours 50 minutes.Description:Item # PFKJRIUPC: 716281006234SLIME BICYCLE TIRE TUBEHigh quality inner bike tire inner tube w/ -Slime Tube Sealant insideProtects from punctures for 2 yearsSchrader valveDEPARTMENTSAutomotiveBuilder's SuppliesElectricalFarm & RanchGreat OutdoorsHand ToolsHeating & CoolingHome HardwareHousehold Essentials Landscaping & Yard & Garden LightingMasonry & ConcretePaint & StainPatio & BackyardPlumbingPower ToolsSafety Products for Work & HomeStationary ToolsWorkshop SupplyHardware World, where you will find everything your local hardware store carries and a lot more!CUSTOMER SERVICEOrder HistoryMy AccountContact Us(800) 385-8320INFORMATIONAbout Us / FAQsReturn Policy & Privacy PolicyReviewsAffiliate Program© COPYRIGHT 2024 HARDWAREWORLD.COM"
+                  '3': "          Slime Extra Strong Self-Sealing Bicycle Tube Schrader 24\" x 1.75-2.125\" - 30047 - DroneUp Delivery                                                                                                                                                                       Search I\\'m searching for...×        00 items                    HomeShopSports & Outdoors, Bikes, Bike PartsSlime Extra Strong Self-Sealing Bicycle Tube Schrader 24″ x 1.75-2.125″ – 30047   Slime Extra Strong Self-Sealing Bicycle Tube Schrader 24″ x 1.75-2.125″ – 30047                              Related products            Add to cart      Sports & Outdoor Play Fan Shop, Sports & Outdoors, Sports Fan Shop  Bridgestone Golf 2021 e6 White Golf Ball, Dozen  $24.97 Weight: 1.5 lbs             Add to cart      Camping Gear, Outdoor Sports, Sports & Outdoors  Outdoor Products Pack Ultimate Dry Sacks – 3 Pack – Weather Resistant Dry Bag Roll Top, Unisex, Blue, Red  $9.97 Weight: 0.22 lbs             Add to cart      Bike Apparel & Footwear, Bikes, Sports & Outdoors  Garanimals Baby and Toddler Girls Bike Shorts, Sizes 12M-2T  $3.98 Weight: 0.0918 lbs             Add to cart      Bike Apparel & Footwear, Bikes, Sports & Outdoors  Garanimals Baby and Toddler Girls Bike Shorts, Sizes 12M-2T  $3.98 Weight: 0.0459 lbs             Add to cart      Exercise & Fitness, Sports & Outdoors, Sports Recovery, Injury Prevention  Mueller 2″ x 9.75″ Black Sports Tape  $8.97 Weight: 0.272 lbs             Add to cart      Exercise & Fitness, Exercise & Fitness Accessories, Sports & Outdoors  Athletic Works Sauna Suit XL/XXL – Reflective Detailing on Sleeves, PVC, Promotes Weight Loss  $12.97 Weight: 1.3 lbs             Add to cart      Bike Apparel & Footwear, Bikes, Sports & Outdoors  Garanimals Baby and Toddler Girls Bike Shorts, Sizes 12M-2T  $3.98 Weight: 0.0459 lbs             Add to cart      Bike Parts, Bikes, Sports & Outdoors  Goodyear 26″ x 2.1″-2.4″ Presta Valve Bike Tube, Tire Levers included  $5.96 Weight: 0.5 lbs             Add to cart      Bike Apparel & Footwear, Bikes, Sports & Outdoors  Garanimals Baby and Toddler Girls Bike Shorts, Sizes 12M-2T  $3.98 Weight: 0.0918 lbs             Add to cart      Exercise & Fitness, Sports & Outdoors, Sports Recovery, Injury Prevention  Equate 2″ x 5.4 yd Black Kinesiology Sports Tape  $9.33 Weight: 0.218 lbs        Featured Products       Royal Basmati White Rice 2lb bag  0 out of 5 $3.98   Best Selling Products       Fresh Bananas, Each  0 out of 5 $0.50         Coca-Cola Soda Pop, 20 fl oz Bottle  0 out of 5 $2.08         Lunch by Drone Main item  0 out of 5 $1.02 – $8.48   Latest Products       (Hot) Freshness Guaranteed Rotisserie Chicken, Lemon Pepper, Cooked, Ready to Serve, 36 oz  0 out of 5 $6.97         (Hot) Freshness Guaranteed Rotisserie Chicken, Traditional, Cooked, Ready to Serve, 36 oz  0 out of 5 $6.97         GOODY COLORED ELASTIC 28CT  0 out of 5 $3.48                   Instagram Facebook Twitter Youtube                ©2024 DroneUp LLC. All rights reserved. Mission Match™ and the DroneUp® app are protected under international and United States intellectual property laws including US Patent No. 10,741,088 and copyright laws. Additional patents are pending. DroneUp and MISSION MATCH are trademarks of DroneUp, LLC.     Privacy   Terms                 You've just added this product to the cart:  View Cart Continue             We are using cookies to give you the best experience on our website.You can find out more about which cookies we are using or switch them off in settings.   Accept                                                                                                     Close GDPR Cookie Settings           Privacy Overview     Strictly Necessary Cookies     Powered by\_ GDPR Cookie Compliance            Privacy Overview  This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.      Strictly Necessary Cookies  Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.     Enable or Disable Cookies           If you disable this cookie, we will not be able to save your preferences. This means that every time you visit this website you will need to enable or disable cookies again.             Enable All Save Settings              "
+                  '4': '         Amazon.com              Enter the characters you see below Sorry, we just need to make sure you''re not a robot. For best results, please make sure your browser is accepting cookies.           Type the characters you see in this image:         Try different image            Continue shopping            Conditions of Use     Privacy Policy             © 1996-2014, Amazon.com, Inc. or its affiliates                   '
+                  '5': "           Slime Extra Strong Self-Sealing Schrader Valve Tube - The Spoke Easy | Charlotte, NC                                                     Skip to main content                               Search    Search           Toggle navigation          Account Account     Cart Cart     Subtotal: $0.00  Checkout Cart                  Menu  x      Cart  Cart     Account Account     Store Store    Shop     Bikes     Bikes   Road   Gravel   Mountain   Cyclocross   Commuter/Urban   Comfort   Cruiser   Fitness   Hybrid   Children's   BMX   Other      Electric     Electric   Bikes      Wheels     Wheels   Parts & Accessories   Wheels   Hubs   Rims   Spokes      Parts     Parts   Bar Ends   BMX   Bottom Brackets   Brakes/Levers/Pads   Cables   Cassettes/Freewheels   Chainrings   Chains   Cranksets   Derailleurs   Forks   Groups   Handlebar Grips/Tape   Handlebars   Headsets   Pedals   Recumbent   Saddles   Seatposts   Shift/Brake Combinations   Shifters   Shocks   Stems   Other      Accessories     Accessories   E-bike Batteries/Kits   BMX Gear   Body Care   Children's-Bike Accessories   Child Seats   Electronics   Eyewear   Fenders   Hydration   Lighting   Locks/Security   Media/Resources   Nutrition   Packs/Racks/Baskets   Pumps/Inflation   Recumbent   Safety   Storage   Tools/Maintenance   Trailers/Strollers   Indoor Cycling   Travel Cases   Other      Spoke Easy Merch     Spoke Easy Merch      Tires/Tubes     Tires/Tubes   Parts & Accessories   Tires   Tubes: All Sizes/Types      Clothing     Clothing   Accessories   Gloves   Jerseys/Tops (Short Sleeve)   Outerwear   Protective/Armor   Running   Jerseys/Tops (Long Sleeve)   Shirts/Tops (Casual)   Shorts/Bottoms   Shorts/Bottoms (Casual)   Socks   Triathlon   Undergarments      Helmets     Helmets   Parts & Accessories   Adults   Kids      Shoes     Shoes   Casual Shoes   Parts & Accessories   Cycling Shoes      Car Racks     Car Racks   Accessories/Parts   Hitch-Mount   Pickup/RV/Spare-Tire Mount   Roof-Mount   Trunk-Mount      Gift Cards     Gift Cards       Spoke Easy Merch   Spoke Easy Merch     Services   Bicycle Service   Mobile Bicycle Service   Financing     About   About Us   Our Team     News/Events   Events Calendar   News Blog     Contact Us   Shop Hours & Location   Email Us                  Home     Bicycling Catalog     Tires/Tubes     Tubes: All Sizes/Types     Slime     Extra Strong Self-Sealing Schrader Valve Tube          Slime   Extra Strong Self-Sealing Schrader Valve Tube                                                          $11.39                  Size:  Select Size 16 x 1.75 – 2.125 20 x 1.50 – 2.125 24 x 1.75 – 2.125 26 x 1.75 – 2.125 29 x 1.85 – 2.20          Availability: Please select options       Shipping options  Deliver to Address   This item is eligible for delivery in select areas. View available options in checkout.     Shipping options  Pick up in Store         Quantity        Add to Cart         Add to Wish List              Details    Part Numbers    Reviews      Details    These are no ordinary bicycle tubes! These extra strong inner tubes stop flats for 2 years because there is Slime inside.- No more flats for 2 years!- Extra strong with Slime sealant inside- Instantly seals tread area punctures up to 1/8\" (3mm) in size- Seals multiple punctures repeatedly- Non-toxic and non-flammable- Cleans up with water       Part Numbers     Option UPC MPN      16 x 1.75 – 2.125   716281006272   30051     20 x 1.50 – 2.125   716281006258   30049     24 x 1.75 – 2.125   716281006234   30047     26 x 1.75 – 2.125   716281006210   30045     29 x 1.85 – 2.20   716281505140   30070        Reviews          X                The Spoke Easy1530 Elizabeth Avenue, Suite 100Charlotte, NC 28204(980) 224-7681Directions & Hours   ShopBicyclesCycling ApparelCycling AccessoriesBike Components   InformationAbout UsService & RepairEvents CalendarContact Us        Facebook Instagram        All Rights Reserved \_• \_Policies & Shipping\_ • \_Privacy\_ • \_Accessibility                         "
+                  '6': "     International Online Shopping Store from US to Bahamas | Aeropost Bahamas                                                       JavaScript is currently not supported/disabled by this browser. Please enable JavaScript for full functionality.                                                                                                                                   Bahamas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Select Country              Account     Returning Customer Sign In   Don't have an account? Sign Up                               Please choose a category or enter a keyword to search                     Home       Sign In         Sign Up                                                                                                             Bahamas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Change  Bahamas Costa Rica Guatemala Trinidad and Tobago Jamaica Peru El Salvador Panama British Virgin Islands Barbados     All Categories  Appliances  Back To Main Menu  Heading  Appliances   Top Categories  Air Conditioners Heating, Cooling & Air Quality Microwave Ovens Parts & Accessories Range Hoods Refrigerators, Freezers & Ice Makers Small Kitchen Appliances Vacuums & Floor Care   Arts, Crafts & Sewing  Back To Main Menu  Heading  Arts, Crafts & Sewing   Top Categories  Beading & Jewelry Making Crafting Fabric Fabric Decorating Painting, Drawing & Art Supplies Party Decorations & Supplies Scrapbooking Sewing   Automotive  Back To Main Menu  Heading  Automotive   Top Categories  Car Electronics Exterior Accessories Interior Accessories Motorcycle & Powersports Performance Parts & Accessories Tools & Equipment   Baby  Back To Main Menu  Heading  Baby   Top Categories  Apparel & Accessories Baby Care Baby & Toddler Toys Car Seats & Accessories Diapering Feeding Nursery Potty Training Pregnancy & Maternity Safety Strollers & Accessories   Beauty & Personal Care  Back To Main Menu  Heading  Beauty   Top Categories  Foot, Hand & Nail Care Fragrance Hair Care Makeup Oral Care Personal Care Salon & Spa Equipment Skin Care Tools & Accessories Clothing, Shoes & Jewelry  Back To Main Menu  Heading  Clothing, Shoes & Jewelry   Top Categories Clothing & Shoes  Boy's Clothing, Shoes & Accessories Girl's Clothing, Shoes & Accessories Men's Clothing Men's Shoes Men's Accessories Women's Clothing Women's Handbags & Wallets Women's Shoes Women's Accessories Costumes & Accessories Top Categories Jewelry & Travel  Jewelry Boxes Men's Jewelry Men's Watches Women's Jewelry Women's Watches Luggage & Travel Gear   Electronics & Video Gaming  Back To Main Menu  Heading  Electronics & Video Gaming   Top Electronics Categories  Bluetooth & Wireless Speakers Camera & Photo Cell Phones & Accessories Computers & Accessories Headphones Home Audio Television & Video Wearable Technology View All Electronics Top Video Game Categories  Nintendo Switch PlayStation 5 PlayStation 4 Xbox Series X & S Xbox One View All Video Gaming   Health & Household  Back To Main Menu  Heading  Health & Household Products   Top Categories  Baby & Child Care Diet & Sports Nutrition Health Care Household Supplies Medical Supplies & Equipment Oral Care Personal Care Vision Vitamins & Dietary Supplements Wellness & Relaxation   Home & Kitchen  Back To Main Menu  Heading  Home & Kitchen   Top Categories  Bath Bedding Event & Party Supplies Furniture Heating, Cooling & Air Quality Home Décor Irons & Steamers Kitchen & Dining Lighting & Ceiling Fans Seasonal Décor Small Kitchen Appliances Storage & Organization Wall Art   Musical Instruments  Back To Main Menu  Heading  Musical Instruments   Top Categories  Amplifiers & Effects Band & Orchestra Bass Guitars Drums & Percussion Electronic Music, DJ & Karaoke Guitars Keyboards Instrument Accessories Microphones & Accessories Stringed Instruments Studio Recording Equipment Wind & Woodwind Instruments   Office Products  Back To Main Menu  Heading  Office Products   Top Categories  Office & School Supplies Office Electronics Office Furniture & Lightning   Patio, Lawn & Garden  Back To Main Menu  Heading  Patio, Lawn & Garden   Top Categories  Gardening & Lawn Care Generators & Portable Power Grills & Outdoor Cooking Outdoor Lighting Outdoor Power Tools Patio Furniture & Accessories Pest Control Pools, Hot Tubs & Supplies   Pet Supplies  Back To Main Menu  Heading  Pet Supplies   Top Categories  Cats Dogs Birds Fish   Sports & Outdoors  Back To Main Menu  Heading  Sports & Outdoor   Top Categories  Boating & Sailing Exercise & Fitness Fan Shop Fitness Trackers Gameroom & Backyard Games Golf Hunting & Fishing Outdoor Recreation Sports & Outdoor Recreation Accessories Sports Water Sports   Tools & Home Improvement  Back To Main Menu  Heading  Tools & Home Improvement   Top Categories  Electrical Hardware Kitchen & Bath Fixtures Lighting & Ceiling Fans Measuring & Layout Tools Power & Hand Tools Rough Plumbing Safety & Security Tool Storage & Home Organization   Toys & Games  Back To Main Menu  Heading  Toys & Games   Top Categories  Building Toys Dolls & Accessories Dress Up & Pretend Play Games & Accessories Kid's Electronics Learning & Education Play Vehicles Remote Controlled Vehicles Ride On Toys Sports & Outdoor Play Stuffed Animals & Plush Toys Toy Figures & Playsets      Appliances Electronics Gaming Fashion Home Outdoor Pets Sports Tools Toys    GENERAL  About Us Sell on Marketplace Restricted Products HELP  Shop with Aeropost Seller Login FAQs Contact Us                            Help Contact us             Currently you’re in Aeropost Marketplace  You\_can also shop using a U.S. address with Aeropost Courier    Login To Marketplace Go To Courier Login                                                                                                                   Home  Sports & Outdoors          Filter Clear All x     Sort By         Most Popular    Newly Listed    Price - High to Low    Price - Low to High         Filter        Category       Sports & Outdoors   Clothing   Exercise & Fitness   Fan Shop   Hunting & Fishing   Outdoor Recreation   Sports   Sports & Outdoor Recreation Accessories   Sports Medicine       See More See Less        Price Range Clear             Brands  Clear        Slime     See More See Less      StyleClear         1 Gallon (3.78 Litre ) bottle    16oz (473 mL) 4 pack - Bicycle    16oz (473 mL) 6 pack - Dirt Bike    16oz (473 mL) bottle - Bicycle    16oz (473 mL) bottle - Dirt Bike                      See More              ColorClear         Presta                     21             results found for             \"Sports & Outdoors\"                            Filter   Sort     21             results found for             \"Sports & Outdoors\"                                                     Sort By :                     Most Popular                       Most Popular   Newly Listed   Price - High to Low   Price - Low to High         Sports & Outdoors [ 21 item(s) ]                                         Sports & Outdoors                                                                                              Sort By :                                       Most Popular    Newly Listed    Price - High to Low    Price - Low to High    Discount                            Slime 30074 Bike Inner Tubes Puncture Sealant, Extra...  Slime 30074 Bike Inner Tubes Puncture Sealant, Extra Strong, Self Sealing, Prevent and Repair, Schrader Valve, 26 x1.75-2.125, Value 2-Pack                                               (4.5)      USD $12.59 + taxes & shipping               Slime 30081 Bike Inner Tube with Slime Puncture...  Slime 30081 Bike Inner Tube with Slime Puncture Sealant, Super Thick, Extra Strong, Self Sealing, Prevent and Repair, Schrader Valve, 26 x 1.75-2.125                                               (4.6)      USD $14.96 + taxes & shipping               Slime 10056W Bike Tube Puncture Repair Sealant,...  Slime 10056W Bike Tube Puncture Repair Sealant, Prevent and Repair, suitable for all Bicycles, Non-Toxic, Eco-Friendly, 16oz bottle                                               (4.4)      USD $9.96 + taxes & shipping               Slime Self-Healing 26/1.75-2.125 Bicycle Tube with...  Slime Self-Healing 26/1.75-2.125 Bicycle Tube with PRESTA VALVE                                               (4.4)      USD $19.95 + taxes & shipping               Slime Bike Inner Tube with Slime Puncture Sealant,...  Slime Bike Inner Tube with Slime Puncture Sealant, Extra Strong, Self Sealing, Prevent and Repair                                               (4.4)      USD $6.96 + taxes & shipping               Slime 10162 Bike Tube Puncture Repair Sealant with...  Slime 10162 Bike Tube Puncture Repair Sealant with Pump, Prevent and Repair, suitable for all Bicycles, Non-Toxic, Eco-Friendly, 1 Gallon bottle                                               (4.4)      USD $37.99 + taxes & shipping               Slime 16 CO2 Threaded Cartridge (2 Pack)  Slime 16 CO2 Threaded Cartridge (2 Pack)                                               (4.5)      USD $9.87 + taxes & shipping               SLM20036 20046 Refill Magnt Dial Gauge  SLM20036 20046 Refill Magnt Dial Gauge                                               (5)      USD $5.99 + taxes & shipping               Slime 30076 Bike Inner Tube with Slime Puncture...  Slime 30076 Bike Inner Tube with Slime Puncture Sealant, Extra Strong, Self Sealing, Prevent and Repair, Presta Valve, 27.5 (650b) x 2.0-2.4                                               (4.4)      USD $14.89 + taxes & shipping               Slime Bike Inner Tube with Slime Puncture Sealant,...  Slime Bike Inner Tube with Slime Puncture Sealant, Extra Strong, Self Sealing, Prevent and Repair                                               (4.3)      USD $6.57 + taxes & shipping               Slime 23042 Presta to Schrader Valve Adapter  Slime 23042 Presta to Schrader Valve Adapter                                               (4.5)      USD $3.55 + taxes & shipping               Slime Bike Inner Tube with Slime Puncture Sealant,...  Slime Bike Inner Tube with Slime Puncture Sealant, Extra Strong, Self Sealing, Prevent and Repair                                               (3.9)      USD $14.00 + taxes & shipping               Slime 30051 Bike Inner Tube Puncture Sealant,Extra...  Slime 30051 Bike Inner Tube Puncture Sealant,Extra Strong, Self Sealing, Prevent and Repair, Schrader Valve, 16 x 1.75-2.125                                               (4.6)      USD $6.94 + taxes & shipping               Slime 30047 Bike Inner Tube with Slime Puncture...  Slime 30047 Bike Inner Tube with Slime Puncture Sealant, Self Sealing, Prevent and Repair, Schrader Valve, 24x 1.75-2.125                                               (4.5)      USD $6.96 + taxes & shipping               Slime 30085 Bike Inner Tube with Slime Puncture...  Slime 30085 Bike Inner Tube with Slime Puncture Sealant, Extra Strong, Self Sealing, Prevent and Repair, Presta Valve, 700 x 19-25mm                                               (4)      USD $10.99 + taxes & shipping               Slime 30045 Bike Inner Tube with Slime Puncture...  Slime 30045 Bike Inner Tube with Slime Puncture Sealant, Extra Strong, Self Sealing, Prevent and Repair, Schrader Valve, 26 x 1.75-2.125                                               (4.5)      USD $6.96 + taxes & shipping               Slime 2061-A Foot Pump Bicycle Tire Inflator  Slime 2061-A Foot Pump Bicycle Tire Inflator                                               (3.9)      USD $16.73 + taxes & shipping               Slime Bike Inner Tube with Slime Puncture Sealant,...  Slime Bike Inner Tube with Slime Puncture Sealant, Extra Strong, Self Sealing, Prevent and Repair                                               (4.5)      USD $6.96 + taxes & shipping               Slime 30044 Bike Inner Tube with Slime Puncture...  Slime 30044 Bike Inner Tube with Slime Puncture Sealant, Extra Strong, Self Sealing, Prevent and Repair, Schrader Valve, 26 x 1.375                                               (4)      USD $6.96 + taxes & shipping               Slime Smart Tube Schrader Valve Bicycle Tube (24 X...  Slime Smart Tube Schrader Valve Bicycle Tube (24 X 1.75 to 2.125) (2)                                               (4.6)      USD $22.88 + taxes & shipping         Backward12Forward  Record(s) Found: 21 | 2 Page(s)                                                      Do you want to deactivate exemptions and Duty Free prices?  Deactivate              Important                          Duty free purchases is a right given every six months by the government of Costa Rica for a USD $500 CIF maximum per exemption process. Tax exemption is a right that is granted to every natural person, national or foreign, every six months, based on article 116 of the Central American Customs Code (CAUCA) and article 596 of the regulations of that international agreement.  Terms and conditions apply.                             Get your product, duty-free, is very easy:                                    Purchase on aeropost.com, duty-free Turn our duty free mode on before you start shopping                                    Complete and print the form Fill out a duty free request form after checkout                                    Sign and submit Bring your complete and signed form and 2 copies of your ID to an aeropost store.                                    Track your package Use your account, our mobile app or plug-in to track the status of your orders. Processing fee: USD$20.00                                    Enjoy! Get your orders delivered at home or pick them up at your favorite Aeropost store.     Activate Terms and Conditions                                       Do you want to deactivate exemptions and Duty Free prices?  Deactivate              Important                          Duty free purchases is a right given every six months by the government of Costa Rica for a USD $500 CIF maximum per exemption process. Tax exemption is a right that is granted to every natural person, national or foreign, every six months, based on article 116 of the Central American Customs Code (CAUCA) and article 596 of the regulations of that international agreement.  Terms and conditions apply.                             Get your product, duty-free, is very easy:                                    Purchase on aeropost.com, duty-free Turn our duty free mode on before you start shopping                                    Complete and print the form Fill out a duty free request form after checkout                                    Sign and submit Bring your complete and signed form and 2 copies of your ID to an aeropost store.                                    Track your package Use your account, our mobile app or plug-in to track the status of your orders. Processing fee: USD$20.00                                    Enjoy! Get your orders delivered at home or pick them up at your favorite Aeropost store.     Activate Terms and Conditions              Your item value exceeds the CIF value therefore is not eligible for duty free. Please proceed with your regular tax order.  Regular Tax Order               Your item value exceeds the CIF value therefore is not eligible for duty free. Please proceed with your regular tax order.  Regular Tax Order                         GENERAL  About Us Sell on Marketplace Restricted Products HELP  Shop with Aeropost Seller Login FAQs Contact Us    Connect with us                     Accepted Payment Methods                © 2024 Aeropost Bahamas.  \_ All rights reserved.    Bahamas Terms & Conditions Returns and Refunds                              The squirrels are racing to fetch your item, hang tight!                              "
+                  '7': '         Amazon.com              Enter the characters you see below Sorry, we just need to make sure you''re not a robot. For best results, please make sure your browser is accepting cookies.           Type the characters you see in this image:         Try different image            Continue shopping            Conditions of Use     Privacy Policy             © 1996-2014, Amazon.com, Inc. or its affiliates                   '
+                  '8': "                   Specialized Standard 24\" Youth Inner Tube (Schrader) (1.25 - 1.5\") (32mm) - Performance Bicycle                                Toggle the accessibility view on the website       FREE U.S. Shipping on orders of $99 or more*.\_\_See complete details >         1-800-727-2453      Contact Us                Search        Account         Cart           Home   Return Home   Specials   Just Arrived   Top Selling   Gift Cards   Hot & New Products   Super Sale!       Bikes & Frames         Shop All Bikes & Frames   Road Bikes   Gravel Bikes   Mountain Bikes   Lifestyle Bikes   E-Bikes   Kids Bikes   Frames   Forks        Clothing         Shop All Clothing   Winter Essentials   Jerseys   Shorts & Bibs   Helmets   Footwear   Clothing Accessories   Sunglasses & Goggles   Jackets & Vests   Base Layers   Tights & Pants   Pads & Body Armor   Casual Clothing   Women's   Youth & Kids   High Vis & Reflective        Parts         Shop All Parts   Bearings   Bottom Brackets & Parts   Brakes   Cables & Housing   Cassettes   Chainrings & Accessories   Chains & Accessories   Cranksets & Parts   Derailleurs & Parts   E-Bike Accessories   Electronic Shifting   Forks   Grips & Handlebar Tape   Groupsets   Handlebars   Headsets & Spacers   Pedals & Cleats   Saddles & Seats   Seatposts & Clamps   Shifters   Stems & Parts   Stickers & Decals   Suspension   Wheels & Parts   Specialized Replacement Parts        Tires & Tubes         Shop All Tires & Tubes   Tires   Tubes   Tire & Tube Accessories   Tubeless Accessories        Accessories          Shop All Accessories   Bags, Packs & Racks   Bells & Horns   Bike Racks   Camping & Bikepacking   Electronics & Bike Computers   Fenders   Frame Protection   Helmets   Kickstands   Lights   Locks   Mirrors   Nutrition   Pumps & CO2   Shoes   Skin Care Products   Trailers, Child Seats & Carriers   Trainers   Travel Cases   Water Bottles, Cages & Hydration        Maintenance         Shop All Maintenance   Bike Work & Repair Stands   Brake Fluid & Bleed Kits   Cleaning Supplies   Lube, Grease, & Oil   Paints & Finishes   Pumps & CO2   Tools        Top Brands   Shop All Top Brands   Bombtrack   Campagnolo   Cane Creek   Castelli   Continental   Diamondback   DT Swiss   Endura   Enve   Forte   Fox Suspension   Garmin   Garmin Tacx   Giro   Lezyne   Look   Louis Garneau   Orbea   Park Tool   Pearl Izumi   Performance   Pirelli   PNW Components   POC   Ritchey   RockShox   Schwalbe   Shimano   Sidi   Silca   Specialized   Spin Doctor   SRAM   Stages   Surly   Time   Topeak   Vittoria   WTB   Zipp       Blog   View All Posts   The Science of Cold Tires   Gatorskin Tubeless?!   Buyer’s Guide: Roval Road Wheels   SRAM AXS XPLR Gravel Groupset Weight Guide   Tour of Tahiti w/ EJ's Training   The Ultimate Gravel Bike?!   Video: The Belgian Otter Tour   Video: BWR on a Tandem!?   Garmin Edge 840 vs Karoo 2   Is it time to replace my bike shorts?   Dynaplug - Easy Tubeless Tire Repair               Tires & Tubes >   Tubes >   24\" >   Schrader >   Part# 031-1349     Specialized Standard 24\" Youth Inner Tube (Schrader) (1.25 - 1.5\") (32mm)                       Write the first review           031-1349   Specialized    Related Products           Back Order Now   You may back order this item and it will ship when it arrives.      $4.99 flat rate shipping!   Learn More      Price:\_$8.00Sale:\_$7.99       Tube Width Range | Valve Length:  1.25 - 1.5\" | 32mm 1.5 - 2.3\" | 32mm 1.9 - 2.4\" | 32mm 1-1/8 - 1-3/8\" | 32mm 2.4 - 3.0\" | 32mm          Back Order   Please Log in to receive a notification when this item arrives in stock.  Save In List      Note: Manufacturer does not allow coupons   This item earns up to 8 VIP Reward Points Learn More      Check Store Availability            Overview    Your little ones have a youthful, intrepid spirit that sees them riding wherever the wind takes them. Most of the time, however, it takes them straight through thorns and debris, leaving you with the unenviable task of changing out flat after flat. But with Specialized's Standard Schrader Valve Youth Tubes, you'll have the peace of mind that they're riding on tough tubes that are built strong to last. And to make sure of it, they feature a molded method of construction that ensures a consistent thickness of butyl rubber— meaning that they'll roll smooth and stay tough, ride after ride.  Features:    Consistent thickness for the utmost in quality. 32mm Schrader valve   Specifications:  Diameter:  24\"  ISO Diameter (ETRTO):  507 (Decimal Sizes)  Valve Type:  Schrader  Valve Length:  32mm  Removable Valve Core:  Yes  Puncture Protection:  -  Weight:  -   This product was added to our catalog on November 23, 2021        More Related Items...        CST 24\" Bike Inner Tube (Schrader) (1.0\")   The CST 24\" Bike Inner Tube are designed\_...  for wheelchair use. Don't let flats give you trouble, CST has you covered!  Show MoreLess         Forte 24\" Inner Tube (Schrader) (1.5 - 2.0\")   The Forte 24\" Inner Tube is a perfect\_...  replacement for flat wheels. It also never hurts to have a few spares in case bad luck strikes.  Show MoreLess         Giant 24\" Thorn Resistant Inner Tube (Schrader) (1.9   This is the Giant 24\" Thorn Resistant Inner\_...  Tube featuring a 35mm Schrader valve stem and varying wall thickness for resistance against punctures.  Show MoreLess         Kenda 24\" Thornproof Inner Tube (Schrader) (1.9 -   The Kenda 24\" Thornproof Inner Tube features a\_...  thicker wall to help protect against punctures from thorns and foreign objects.  Show MoreLess         Odyssey Air Supply 24\" Inner Tube (Schrader) (1.9   The Odyssey Air Supply Inner Tube is specifically\_...  designed to fit modern BMX tires with a strong emphasis on quality, in both the rubber that is used and strict quality control during manufacturing.  Show MoreLess          Related Categories  24 inch standard inner tube specialized standard schrader inner tube    Related Items  specialized schrader inner tube 12 inch standard valve inner tube specialized 26 inch standard inner tube 29 inch standard inner tube           Contact Us      1-800-727-2453      Live Chat      Join us on Facebook Follow us on Instagram Tune in on Youtube TikTok Strava Blog          Resources & Support   FAQ: General FAQ   FAQ: Affirm Financing   FAQ: ASE Bankruptcy   FAQ: Cancelling Orders   FAQ: Gift Cards Notice   FAQ: Pre-Order/Back-Order   FAQ: Rewards Points   FAQ: Wish List     Customer Service    Contact Us   Product Returns   VIP Rewards Program   VIP Terms & Conditions   Local Inventory   Sponsorship Requests     Shopping Help   2023 Holiday Shipping   Discount Coupons   Shipping Information   International Shipping   Payments Accepted   Privacy Policy   Shipping Restrictions     Company Info   Affiliate Program   About Us   Careers   Store Locations   Terms Of Use   Why Shop With Us?   Performance Partners       Call us at 1-800-727-2453, or Sign up for our newsletter    Secure Payments                                        Powered by AMain.com, Inc. Copyright © 2024 Performance Bicycle. All Rights Reserved.All original wording and photographs used on this website are the property of Performance Bicycle, and may not be used without prior written consent.                      "
+        '400':
+          description: Invalid response from /texts
+          content:
+            application/json:
+              example:
+                error: Invalid response from /texts

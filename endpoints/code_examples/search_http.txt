@@ -1,0 +1,4 @@
+GET /search?q=peak%20DEF002%20diesel%20exhaust%20fluid HTTP/1.1
+X-Rapidapi-Key: XXXXXXXXXXXXX
+X-Rapidapi-Host: produkter.p.rapidapi.com
+Host: produkter.p.rapidapi.com
