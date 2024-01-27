@@ -41,7 +41,7 @@ Developers can return product information by requesting one of the following end
 * /suggestions?q=
 
 e.g. 
-`https://produkter.p.rapidapi.com/set_produkt?q={product brand}%20{product mpn}`
+`https://produkter.p.rapidapi.com/search?q={product brand}%20{product mpn}`
 
 
 * request `https://produkter.p.rapidapi.com/search` for structured product information JSON about the product.
@@ -60,12 +60,21 @@ e.g.
 
 3. To return JSON on a different product, repeat step 1 with a new `?q` value then proceed to step 2.
 
-## About
+## Access
 
-Navigate to the Produkter API documentation for detailed examples on accessing the data.
+Access to the Produkter API is available on the [RapidAPI API Hub](https://rapidapi.com/vanaltrades/api/produkter/details).
 
-Example JSON responses can be viewed within the documentation "Example Responses" tab.
+The API is available to developers following a ['Freemium' pricing model](https://rapidapi.com/vanaltrades/api/produkter/pricing).
 
-If a JSON key is not collected from the endpoint because it does not exist for a given `?q`, that key will be ommited from the response JSON.
+To access the API, simply...
 
-A full list of possible JSON keys for each endpoint will be added to the documentation soon.
+1. Sign in or [sign up](https://rapidapi.com/auth/sign-up) for RapidAPI.
+2. Navigate to the [Produkter API](https://rapidapi.com/vanaltrades/api/produkter).
+3. Subscribe to the API.
+4. Test out the API online via RapidAPI or locally using your [preferred programming language](endpoints/code_examples).
+
+Once subscribed to the Produkter API, you will be provided with a secret key(X-RapidAPI-Key). Include this key in your request headers for access.
+
+To test the API for your use-case, developers are permitted 10 requests per month on the `Basic Plan`. 
+
+The `Pro Plan` allows 10 requests per month and charges $0.05/request beyond 10 requests.
