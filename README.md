@@ -58,8 +58,6 @@ e.g.
 
 * request `https://produkter.p.rapidapi.com/texts` for relevant text JSON associated with the product.
 
-3. To return JSON on a different product, repeat step 1 with a new `?q` value then proceed to step 2.
-
 ## Access
 
 Access to the Produkter API is available on the [RapidAPI API Hub](https://rapidapi.com/vanaltrades/api/produkter/details).
